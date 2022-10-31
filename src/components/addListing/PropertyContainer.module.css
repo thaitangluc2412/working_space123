@@ -1,0 +1,72 @@
+.container {
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    background-color: white;
+    max-width:  830px;
+
+    display: flex;
+}
+
+.container:hover {
+    box-shadow: 0 8px 8px rgba(0, 0, 0, 0.2);
+}
+
+.content {
+    padding: 20px 10px;
+}
+
+
+.content h4 {
+    color: #234352;
+    margin: 0;
+    font-size: 18pt;
+    white-space: nowrap; 
+    max-width: 500px; 
+  overflow: hidden;
+  text-overflow: ellipsis; 
+  /* border: 1px solid #000000; */
+}
+
+.content p {
+    color: #83939c;
+    font-size: 9pt;
+    margin: 0;
+}
+
+.btn {
+    padding-top: 10px;
+    text-align: right;
+  }
+  
+  .btn button{
+    color: white;
+    /* background-color: #1e8489; */
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    margin-left: 15px;
+  }
+  
+  .update:hover {
+    background-color: #45afb4;
+  }
+  
+  .update {
+    background-color: #1e8489;
+  }
+  
+  .delete {
+    background-color: rgb(216, 59, 59);
+  }
+  
+  .delete:hover {
+    background-color: rgb(220, 100, 100);
+  }
+
+  .rooms:hover {
+    background-color: #b9dd5f;
+  }
+  
+  .rooms {
+    background-color: #b2f50a;
+  }

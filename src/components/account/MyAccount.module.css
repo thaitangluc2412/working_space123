@@ -1,0 +1,122 @@
+.container {
+  margin-top: 80px;
+  /* width: 100%; */
+  padding: 20px 60px;
+  display: flex;
+  /* border:1px solid black; */
+}
+
+.left {
+  width: 50%;
+  padding: 5px 20px;
+}
+
+.info {
+  position: relative;
+  padding: 20px 0;
+  border-bottom: 1px solid #ddd;
+}
+
+.info h2 {
+  font-size: 2.5rem;
+  font-weight: 500;
+  color: #333;
+  margin: 10px 0;
+}
+
+.info span {
+  color: #1e8489;
+  font-weight: 600;
+}
+
+.info a {
+  text-decoration: none;
+  color: #1e8489;
+}
+
+.info a:hover {
+  text-decoration: underline;
+}
+
+.avatar {
+  position: absolute;
+  right: 0;
+  top: 20px;
+}
+
+.avatar img {
+  width: 100px;
+  height: auto;
+  border-radius: 50%;
+}
+
+.card {
+  text-decoration: none;
+}
+
+.card:hover {
+  cursor: pointer;
+  transform: scale(1.05);
+}
+
+.card h3 {
+  font-weight: 500;
+  margin: 15px 0px;
+}
+
+.card div {
+  position: relative;
+  padding: 1rem;
+  margin: 1rem 0px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  background-color: white;
+  height: 120px;
+}
+
+.card div:hover {
+    cursor: pointer;
+    transform: scale(1.02);
+  }
+
+.card div img{
+    height: 90%;
+    position: absolute;
+    right: 15px;
+    top: 8px;
+}
+
+.right {
+  width: 50%;
+  padding: 0 10px;
+}
+
+.cardRight{
+  padding: 1rem;
+  margin: 1rem 0px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  background-color: white;
+  height: fit-content;
+}
+
+.cardRight p a{
+    text-decoration: none;
+    color: #1e8489;
+}
+
+.cardRight p a:hover{
+    text-decoration: underline;
+    
+}
+
+.button button{
+    cursor: pointer;
+    width: 100%;
+    border-radius: 5px;
+    padding: 12px 10px;
+    border: none;
+    font-size: 18px;
+    font-weight: 600;
+    color: #1e8489;
+}

@@ -1,0 +1,142 @@
+.modalReview {
+    position: fixed;
+    width: 90%;
+    left: 5%;
+    top: 16vh;
+    background: white;
+    border-radius: 5px;
+    z-index: 200;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+    max-height: 500px;
+    animation: slide-down 500ms ease-out forwards;
+  }
+
+  .titleFilter {
+    width: 90%;
+    text-align: center;
+    margin: 0 auto;
+    border-bottom: 1px solid #dae6db;
+    position: relative;
+  }
+  
+  .titleFilter h2 {
+    margin: 15px;
+    font-size: 22px;
+    color: #1e8489;
+  }
+  
+  .close {
+    position: absolute;
+    right: -10px;
+    top: -10px;
+    width: 25px;
+    height: 25px;
+    opacity: 0.2;
+    border: 1px solid black;
+    border-radius: 50%;
+  }
+  .close:hover {
+    opacity: 1;
+  }
+  .close:before,
+  .close:after {
+    position: absolute;
+    left: 10px;
+    top: 2px;
+    content: " ";
+    height: 20px;
+    width: 2px;
+    background-color: #333;
+  }
+  .close:before {
+    transform: rotate(45deg);
+  }
+  .close:after {
+    transform: rotate(-45deg);
+  }
+  
+  @keyframes slide-down {
+    from {
+      opacity: 0;
+      transform: translateY(-3rem);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  @media (min-width: 768px) {
+    .modalReview {
+      width: 40rem;
+      left: calc((100% - 40rem) / 2);
+    }
+  }
+
+  .content {
+    padding: 10px 10px;
+    display: flex;
+  }
+
+  .images {
+    width: 50%;
+    height: 300px;
+  }
+
+  .imageRoom {
+    border-radius: 10px;
+    height: 300px;
+    width: 100%;
+  }
+  .rating{
+    width: 50%;
+    padding: 0 10px;
+    /* border: 1px solid black; */
+    height: fit-content;
+  }
+
+  .rating h3{
+    margin: 0;
+    width: 100%;
+    font-size: 18px;
+    line-height: 20px; 
+  }
+
+  
+
+  .containerRating {
+    /* border: 1px solid black; */
+    text-align: center;
+    display: flex;
+    align-items: center;
+  }
+
+  .containerRating label {
+    color: #1e8489;
+    margin-right: 10px;
+  }
+
+  .textReview {
+    width: 100%;
+    height: fit-content;
+  }
+
+  .btn {
+     /* border: 1px solid red; */
+     width: 100%;
+     text-align: center;
+  }
+
+  .btn button {
+    padding: 5px 8px;
+    border: none;
+    color: white;
+    background-color: #1e8489;
+    cursor: pointer;
+    border-radius: 5px;
+
+  }
+
+  .btn button:hover {
+    background-color: #65ccd1;
+  }

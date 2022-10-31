@@ -1,0 +1,190 @@
+.container {
+  margin-top: 80px;
+  /* width: 100%; */
+  padding: 20px 60px;
+  /* display: flex; */
+  /* border:1px solid black; */
+}
+
+.header {
+  display: flex;
+  position: relative;
+  margin-bottom: 10px;
+}
+
+.goBack button {
+  font-size: 14px;
+  padding: 6px;
+  background-color: white;
+  border: none;
+  color: rgb(114, 106, 106);
+}
+
+.goBack button span {
+  color: #1e8489;
+  margin-right: 7px;
+}
+
+.goBack button:hover {
+  cursor: pointer;
+  background-color: #e8eef4;
+}
+
+.status {
+  position: absolute;
+  right: 0;
+  padding: 6px 10px;
+  font-weight: 750;
+  font-size: 13px;
+  color: white;
+  /* background-color: #fece04; */
+  border: none;
+  border-radius: 15px;
+}
+
+.content {
+  /* border: 1px solid black; */
+  display: flex;
+}
+
+.space {
+  /* border: 1px solid black; */
+  width: 60%;
+}
+
+
+.linked {
+  /* border: 1px solid black; */
+  font-size: 35px;
+  color:black;
+  text-align: center;
+}
+
+.linked span{
+  width: 100%;
+  /* border: 1px solid black; */
+}
+
+.information {
+  padding: 0px 30px;
+  font-size: 20px;
+  color: rgb(82, 69, 69);
+  font-weight: 600;
+  /* border: 1px solid black; */
+  /* height: fit-content; */
+  width: 70%;
+}
+
+.wrapper {
+  padding: 0px 10px;
+  /* border: 1px solid black; */
+  height: fit-content;
+  /* display: flex; */
+}
+
+.inforReservation {
+  /* border: 1px solid #1e8489; */
+  padding: 5px 10px;
+  box-shadow: 0 2px 8px rgba(116, 113, 113, 0.2);
+  border-radius: 10px;
+  background-color: white;
+  /* border: 1px solid black; */
+  width: 100%;
+  margin-right: 20px;
+  height: fit-content;
+}
+
+.inforReservation span{
+  /* border:1px solid black; */
+  margin-bottom: 10px;
+}
+
+.rentInfo p {
+  font-size: 16px;
+}
+
+.rentInfo span{
+  color:#1e8489;
+  margin-right: 10px;
+}
+
+.status1 {
+  /* border:1px solid black; */
+  height: fit-content;
+  width: 100%;
+  /* border: 1px solid #fece04; */
+  border-radius: 5px;
+  box-shadow: 0 2px 8px rgba(0,0,0,.15)!important;
+  display: flex;
+  margin-top: 10px;
+  /* border: 1px solid #1e8489; */
+}
+
+.icon {
+  color: #fece04;
+  font-size: 40px;
+}
+
+.text {
+  /* border: 1px solid black; */
+  padding: 10px 5px;
+}
+
+.notify {
+  color:#fece04;
+  font-weight: 600;
+  font-size: 17px;
+}
+
+.note {
+  color:rgb(114, 106, 106);
+  font-size: 13px;
+}
+
+.paypal {
+  margin-top: 30px;
+}
+
+.paypal label{
+  display: block;
+  margin-bottom: 10px;
+}
+
+.paypal p {
+  margin: 5px 0;
+  color: #333;
+}
+
+.btnRent {
+  margin-top: 50px;
+  width: 100%;
+  padding: 10px;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  font-size: 16px;
+  font-weight: 600;
+  color: white;
+  background-color: #eb626c;
+}
+
+.btnRent:hover {
+  background-color: #ea727a;
+}
+
+.map {
+  box-shadow: 0 2px 8px rgba(116, 113, 113, 0.2);
+  border-radius: 10px;
+  background-color: white;
+  padding: 20px 10px;
+}
+
+.map p {
+  margin: 7px 0px;
+}
+
+.map label {
+  font-size: 20px;
+  font-weight: 600;
+  color: rgb(114, 106, 106);
+}

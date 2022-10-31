@@ -1,0 +1,82 @@
+.reservation {
+    box-shadow: 0 2px 8px rgba(116, 113, 113, 0.2);
+    border-radius: 5px;
+    background-color: white;
+    display: flex;
+    margin-bottom: 30px;
+    padding: 20px 10px;
+  }
+  
+  .reservation:hover {
+    cursor: pointer;
+    transform: scale(1.01);
+  }
+  
+  .div1 {
+    width: 20%;
+    font-size: 13px;
+    font-weight: 500;
+  }
+  
+  .label {
+    color: rgb(114, 106, 106);
+    margin-bottom: 5px;
+  }
+  
+  .div2 {
+    width: 50%;
+    padding: 0px 10px;
+    color: rgb(114, 106, 106);
+    font-weight: 500;
+  }
+  
+  .div2 .status {
+    /* background-color: #eb626c; */
+    width: fit-content;
+    padding: 6px 10px;
+    color: white;
+    border-radius: 10px;
+    font-size: 12px;
+    font-weight: 600;
+    margin: 0;
+    margin-bottom: 7px;
+  }
+  
+  .inforreser {
+    margin-bottom: 5px;
+  }
+  
+  .inforreser span {
+    color: #1e8489;
+    margin-right: 5px;
+  }
+  
+  .div3 {
+    width: 30%;
+    display: flex;
+  }
+  
+  .checkin {
+    height: 100%;
+    /* border: 1px solid black; */
+    /* padding: auto 0px; */
+    /* width: 50px; */
+    display: flex;
+    align-items: center;
+    margin-left: 30px;
+  }
+  
+  .checkin p {
+    text-align: center;
+    margin: 0;
+    color: rgb(114, 106, 106);
+    font-size: 16px;
+    /* border: 1px solid black; */
+    /* margin: calc() 0px; */
+  }
+  
+  .checkin p span {
+    color: #1e8489;
+    font-size: 17px;
+    font-weight: 600;
+  }

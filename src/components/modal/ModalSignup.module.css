@@ -1,0 +1,198 @@
+.modal {
+  position: fixed;
+  width: 90%;
+  left: 5%;
+  top: 16vh;
+  background: white;
+  border-radius: 5px;
+  z-index: 200;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+  max-height: 500px;
+  overflow-y: scroll;
+  animation: slide-down 500ms ease-out forwards;
+}
+
+@keyframes slide-down {
+  from {
+    opacity: 0;
+    transform: translateY(-3rem);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.modal__header {
+  text-align: center;
+  width: 70%;
+  margin: 0 auto;
+  border-bottom: 1px solid #dae0e6;
+  position: relative;
+}
+
+.close {
+  position: absolute;
+  right: -85px;
+  top: -10px;
+  width: 35px;
+  height: 35px;
+  opacity: 0.4;
+  border: 1px solid black;
+  border-radius: 50%;
+}
+.close:hover {
+  opacity: 1;
+}
+.close:before,
+.close:after {
+  position: absolute;
+  left: 15px;
+  content: " ";
+  height: 33px;
+  width: 2px;
+  background-color: #333;
+}
+.close:before {
+  transform: rotate(45deg);
+}
+.close:after {
+  transform: rotate(-45deg);
+}
+
+.modal__header h1 {
+  font-size: 1.5rem;
+  color: #3b0062;
+  margin-bottom: 10px;
+}
+
+.modal__header p {
+  margin-top: 0px;
+  margin-bottom: 20px;
+}
+
+.container_signup {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.container_signup h3 {
+  font-size: 1rem;
+  font-weight: 500;
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 10px;
+}
+
+.container_signup button {
+  vertical-align: middle;
+  background-color: white;
+  padding: 5px 10px 5px;
+  border-radius: 50px;
+  border: none;
+  color: #008489;
+  font-weight: 600;
+  font-size: 15px;
+  box-shadow: 0 3px 10px rgba(202, 107, 107, 0.26);
+}
+
+.container_signup button:hover {
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.26);
+}
+
+.modal__login {
+  width: 70%;
+  margin: 30px auto;
+}
+
+.control {
+  margin-bottom: 25px;
+}
+
+.control label {
+  font-size: 16px !important;
+  font-weight: 600 !important;
+  line-height: 1.375em !important;
+  color: #484848 !important;
+  display: block;
+  font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto,
+    Helvetica Neue, sans-serif !important;
+}
+
+.control p {
+  margin: 0;
+  font-weight: lighter;
+  font-style: italic;
+  font-size: 13px;
+}
+
+.control input {
+  padding: 14px 10px;
+  border: 1px solid #efefef;
+  box-shadow: none;
+  margin-top: 5px;
+  width: 100%;
+  border-radius: 10px;
+  font-size: 16px;
+}
+
+.consentConfirm {
+  margin-top: 0;
+  text-align: center;
+}
+
+.consentConfirm p {
+  display: inline-block;
+}
+
+.consentConfirm p span {
+  color: #ff5a5f;
+}
+
+.actions button {
+  background-color: #ff5a5f;
+  outline: none;
+  width: 100%;
+  transition-duration: 0.2s !important;
+  transition-timing-function: ease-out !important;
+  position: relative !important;
+  display: inline-block !important;
+  text-align: center !important;
+  font-size: 16px !important;
+  line-height: 24px !important;
+  letter-spacing: normal !important;
+  padding: 10px 22px !important;
+  color: #fff !important;
+  text-decoration: none !important;
+  border-radius: 8px !important;
+  border: 2px solid rgba(0, 0, 0, 0) !important;
+}
+
+.actions button:hover {
+  background-color: #ee9598;
+}
+
+.control input:focus {
+  outline-color: rgb(187, 235, 235);
+}
+
+@media (min-width: 768px) {
+  .modal {
+    width: 40rem;
+    left: calc((100% - 40rem) / 2);
+  }
+}
+
+.control select{
+  padding: 14px 10px;
+  border: 1px solid #efefef;
+  box-shadow: none;
+  margin-top: 5px;
+  width: fit-content;
+  border-radius: 10px;
+  font-size: 16px;
+}
+
+.control select:focus {
+  outline-color: rgb(187, 235, 235);
+}

@@ -1,0 +1,43 @@
+.listRooms {
+    width: 100%;
+    display: grid!important;
+    grid-template-columns: repeat(1,1fr)!important;
+    grid-row-gap: 15px!important;
+}
+
+.pagination {
+    margin-top: 50px;
+    display:flex;
+    list-style-type: none;
+    text-align: center;
+    justify-content: center;
+}
+
+.pageLink {
+    display: block;
+    padding: 0.375rem 0.75rem;
+    color: #1e8489;
+    text-decoration: none;
+    background-color: #fff;
+    border: 1px solid #dee2e6;
+    cursor: pointer;
+    
+}
+
+.active, .pageLink:hover {
+    background-color: #1e8489;
+    color: white;
+}
+
+.filterList{
+    margin: 15px 0;
+    text-align: center;
+}
+
+.filterList select {
+    padding: 6px 8px;
+    width: 200px;
+    font-size: 16px;
+    border: 1px solid #1e8489;
+    border-radius: 5px;
+}

@@ -1,0 +1,54 @@
+.cityWrapper {
+    margin: 100px auto;
+    width: 80%;
+    font-family: Arial, Roboto, "Times New Roman";
+}
+
+
+.title {
+    font-size: 32px;
+    font-weight: 700;
+    color: #343434;
+    text-shadow: 0 2px 4px rgb(0 0 0 / 30%);
+    line-height: 0.5;
+}
+
+.underTitle{
+    font-size: 18px;
+    font-weight: 400;
+    color: #7b8389;
+}
+
+.cityContainer {
+    margin-top: 50px;
+}
+
+.singleCity {
+    display: inline-block;
+    height: 300px;
+    width: 24%;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    position: relative;
+    
+    
+}
+
+.singleCity:hover {
+    transform: scale(1.05);
+}
+
+.cityName{
+    border: 1px solid black;
+    width: 80%;
+    text-align: center;
+    position: absolute;
+    bottom: 20px;
+    left: 30px;
+    padding: 10px;
+    color: white;
+    font-size: 18px;
+    background-color: rgba(0,0,0,.5);
+    border-radius: 10px;
+}

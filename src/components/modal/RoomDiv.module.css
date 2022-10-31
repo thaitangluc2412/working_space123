@@ -1,0 +1,39 @@
+.container {
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    background-color: white;
+    max-width:  500px;
+    margin: 20px auto;
+    display: flex; 
+}
+
+.container:hover {
+  cursor: pointer;
+    box-shadow: 0 8px 8px rgba(0, 0, 0, 0.2);
+}
+
+.content {
+    padding: 20px 10px;
+}
+
+
+.content h4 {
+    color: #234352;
+    margin: 0;
+    font-size: 18pt;
+    white-space: nowrap; 
+    max-width: 300px; 
+  overflow: hidden;
+  text-overflow: ellipsis; 
+  /* border: 1px solid #000000; */
+}
+
+.content p {
+    color: #83939c;
+    font-size: 9pt;
+    margin: 0;
+    white-space: nowrap; 
+    max-width: 300px; 
+  overflow: hidden;
+  text-overflow: ellipsis; 
+}

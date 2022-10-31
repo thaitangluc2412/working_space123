@@ -1,0 +1,205 @@
+.modalFilter {
+  position: fixed;
+  width: 90%;
+  left: 5%;
+  top: 16vh;
+  background: white;
+  border-radius: 5px;
+  z-index: 200;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+  max-height: 500px;
+  overflow-y: scroll;
+  animation: slide-down 500ms ease-out forwards;
+}
+
+.titleFilter {
+  width: 90%;
+  text-align: center;
+  margin: 0 auto;
+  border-bottom: 1px solid #dae6db;
+  position: relative;
+}
+
+.titleFilter h2 {
+  margin: 15px;
+  font-size: 22px;
+  color: #1e8489;
+}
+
+.close {
+  position: absolute;
+  right: -10px;
+  top: -10px;
+  width: 25px;
+  height: 25px;
+  opacity: 0.2;
+  border: 1px solid black;
+  border-radius: 50%;
+}
+.close:hover {
+  opacity: 1;
+}
+.close:before,
+.close:after {
+  position: absolute;
+  left: 10px;
+  top: 2px;
+  content: " ";
+  height: 20px;
+  width: 2px;
+  background-color: #333;
+}
+.close:before {
+  transform: rotate(45deg);
+}
+.close:after {
+  transform: rotate(-45deg);
+}
+
+@keyframes slide-down {
+  from {
+    opacity: 0;
+    transform: translateY(-3rem);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@media (min-width: 768px) {
+  .modalFilter {
+    width: 40rem;
+    left: calc((100% - 40rem) / 2);
+  }
+}
+
+
+.contentFilter {
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+.control {
+  margin-bottom: 20px;
+}
+
+.titleChooseType {
+  display: block;
+  font-weight: bold;
+  color: #1e8489;
+  margin-bottom: 15px;
+}
+
+/* .titleChooseType{
+  color: #ed5c66;
+} */
+
+.inputWhere{
+  padding: 12px 10px;
+  font-style: italic;
+  font-size: 16px;
+  outline: none;
+  border: none;
+  border-radius: 50px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.26);
+  width: 100%;
+}
+
+.icon {
+  vertical-align: middle;
+  font-size: 20px;
+}
+
+.inputWhere input {
+  font-size: 17px;
+  margin-left: 5px;
+  border: none;
+  font-style: italic;
+  outline: none;
+}
+
+/* .containerType {
+  display: flex;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.containerType label {
+  width: 50%;
+  font-size: 20px;
+}
+
+.containerType input {
+  
+} */
+
+/* Customize the label (the container) */
+.containerType {
+  width: 50%;
+  margin: 0 auto;
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 18px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* Hide the browser's default radio button */
+.containerType input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+/* Create a custom radio button */
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 20px;
+  width: 20px;
+  background-color: #eee;
+  border-radius: 50%;
+}
+
+/* On mouse-over, add a grey background color */
+.containerType:hover input ~ .checkmark {
+  background-color: #ccc;
+}
+
+/* When the radio button is checked, add a blue background */
+.containerType input:checked ~ .checkmark {
+  background-color: #2196F3;
+}
+
+/* Create the indicator (the dot/circle - hidden when not checked) */
+.checkmark:after{
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the indicator (dot/circle) when checked */
+.containerType input:checked ~ .checkmark:after {
+  display: block;
+}
+
+
+/* Style the indicator (dot/circle) */
+.containerType .checkmark:after {
+  top: 7px;
+  left: 7px;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: white;
+}

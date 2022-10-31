@@ -1,0 +1,169 @@
+.container {
+    width: 100%;
+    padding: 0;
+    margin-top: 72px;
+    position: relative;
+    font-family: Arial, Roboto, "Times New Roman";
+  }
+
+.container_infor{
+    width: 98%;
+    height: 500px;
+    margin: 100px auto;
+    display:flex;
+}  
+
+.container_left{
+    width: 60%;
+}
+
+.image{
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+    margin-bottom: 15px;
+    position: relative;
+
+}
+
+
+.ratingProperty {
+    position: absolute !important;
+    left: 15px;
+    bottom: 30px;
+}
+
+.rentTotal {
+    margin: -15px 0px;
+    
+}
+
+.rentTotal p{
+    color: white;
+}
+
+.container_right{
+    margin-left: 15px;
+    width: 39%;
+}
+
+.content{
+    width: 100%;
+    height: max-content;
+    border-radius: 5px;
+    background-color: white;
+    padding: 15px;
+    margin-bottom: 15px;
+    border: 1px solid #dddee6;
+}
+
+.contentMap {
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+    width: 100%;
+    height: max-content;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+.content h1{
+    margin: 5px 0;
+    color: #484848;
+    font-weight: 750;
+}
+
+.titleContent {
+    color: #1e8489 !important;
+
+}
+
+.content p span{
+    font-weight: bold;
+    color: #484848;
+}
+
+.content h4 {
+    margin: 10px 0;
+    color: #1e8489;
+    font-weight: 750;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+    background-color: white;
+    padding: 6px 8px;
+    width: max-content;
+    border-radius: 10px;
+
+}
+
+.content h4:hover{
+    background-color: rgb(216, 206, 206);
+}
+
+
+
+.icon {
+    color: #1e8489;
+    width: 20px;
+}
+
+.btnMap{
+    width: 100%;
+    padding: 12px 10px;
+    color:white;
+    background-color: #1e8489;
+    border: none;
+    border-radius: 10px 25px 10px 25px;
+    box-shadow: 0 2px 8px #1e8489;
+    font-size: 17px;
+    animation: emerging 1s linear infinite both;
+    cursor: pointer;
+}
+
+.btnMap:hover{
+    animation: none;
+    box-shadow: none;
+}
+
+@keyframes emerging {
+    from {
+      box-shadow: 0 2px 2px #1e8489;
+    }
+    to {
+      box-shadow: 0 2px 20px #1e8489;
+    }
+  }
+
+.avatar_name{
+    display: flex;
+}
+
+.avatar{
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.tabListCustome{
+    color: #1e8489;
+}
+
+.rec.rec-arrow {
+    border-radius: 0;
+}
+
+.rec.rec-arrow:hover {
+    border-radius: 50%;
+}
+/* hide disabled buttons */
+.rec.rec-arrow:disabled {
+    visibility: hidden;
+}
+
+.carousel {
+    position: relative;
+}
+
+.rec.rec-pagination {
+    position:absolute;
+    bottom: 20px;
+    color: red;
+}
+
+.rec.rec-arrow:hover {
+    border-radius: 50%;
+}

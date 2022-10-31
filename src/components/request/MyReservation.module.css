@@ -1,0 +1,116 @@
+.container {
+  color: rgb(114, 106, 106);
+  max-width: 1500px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-family: "lato", sans-serif;
+  text-align: center;
+}
+
+.headerr {
+  font-size: 20px;
+  margin: 20px 0;
+  text-align: center;
+  font-weight: 500;
+  padding-bottom: 15px;
+  border-bottom: 1px solid #ced4da;
+}
+
+.headerr span {
+  color:#1e8489;
+  margin-right: 10px;
+}
+
+.responsiveTable li {
+  border-radius: 3px;
+  padding: 25px 30px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 25px;
+  /* text-decoration: none; */
+}
+
+.responsiveTable .tableHeader {
+  background-color: #1e8489;
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  color: white;
+}
+
+.linkReservation {
+  text-decoration: none;
+}
+
+.responsiveTable .tableRow {
+  text-align: left;
+  background-color: #ffffff;
+  box-shadow: 0px 0px 9px 0px rgba(0, 0, 0, 0.1);
+  height: 130px;
+  cursor: pointer;
+}
+
+.tableRow:hover {
+  transform: scale(1.01);
+}
+
+.col1 {
+  flex-basis: 10%;
+}
+
+.col2 {
+  flex-basis: 25%;
+  /* padding-left: 20px; */
+}
+
+.infoCus {
+    margin-left: 20px;
+    /* margin-bottom: 10px; */
+    height: 33.33%;
+    /* border: 1px solid black; */
+    display: flex;
+    align-items: flex-end;
+    /* text-align:; */
+}
+
+.infoCus p{
+    margin: 0;
+}
+
+.infoCus p span{
+    color:#1e8489;
+    margin-right: 5px;
+}
+
+.col3 {
+  flex-basis: 10%;
+  display: flex;
+  align-items: center;
+  /* color: #1e8489; */
+}
+.col4 {
+  flex-basis: 10%;
+  display: flex;
+  align-items: center;
+  /* color: #1e8489; */
+}
+
+.checkDate {
+    color:#1e8489;
+    text-align: center;
+}
+
+.col5 {
+  flex-basis: 25%;
+}
+
+.col6{
+  flex-basis: 10%;
+}
+
+.col7{
+  flex-basis: 10%;
+}

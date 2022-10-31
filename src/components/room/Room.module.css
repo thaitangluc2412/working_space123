@@ -1,0 +1,129 @@
+.property {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  /* background-color: #f0f3f3; */
+  border-radius: 10px;
+  cursor: pointer;
+  border: 1px solid #dddee6;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 10px 10px 0px;
+  background-color: white;
+}
+
+.carousel {
+  /* border: 1px solid black; */
+  margin: auto 0;
+  width:300px;
+  height: 100%;
+}
+
+.item {
+  /* border: 1px solid black; */
+  margin: auto 0;
+  width: 100%;
+  height: 200px;
+}
+
+.image{
+  width: 100%;
+  height: 100%;
+}
+
+/* .propertyImage button {
+  background-color: white;
+  box-shadow: 0 2px 8px rgba(87, 84, 84, 0.26);
+  border-radius: 50px;
+  padding: 6px 8px;
+  text-align: center;
+  font-weight: lighter;
+  position: absolute;
+  z-index: 9;
+  font-size: 9pt;
+  right: 5px;
+  top: 5px;
+  border: none;
+  color: #1e8489;
+} */
+
+.propertyContent {
+  margin-left: 20px;
+  padding: 10px;
+}
+
+.propertyContent p {
+  margin: 5px 0px;
+  vertical-align: middle;
+  font-size: 17px;
+}
+
+.propertyContent h2 {
+  margin: 0;
+  color: #484848;
+}
+
+.propertyContent button {
+  border: none;
+  padding: 6px 20px;
+  color: white;
+  font-size: 18px;
+  background-color: #1e8489;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.propertyContent button:hover {
+  color: #1e8489;
+
+  background-color: white;
+}
+
+.button {
+  position: absolute;
+  right: 10px;
+  bottom: 8px;
+}
+
+.button button {
+  background-color: white;
+  box-shadow: 0 2px 8px rgba(87, 84, 84, 0.26);
+  border-radius: 50px;
+  font-size: 16px;
+  padding: 5px 10px;
+  text-align: center;
+  font-weight: lighter;
+}
+
+.rentNow {
+  color: rgb(111, 216, 216);
+  border: 1px solid rgb(111, 216, 216);
+  animation: bubbles 1s linear infinite both;
+}
+
+.rentNow:hover {
+  background-color: rgb(111, 216, 216);
+  color: white;
+}
+
+@keyframes bubbles {
+  from {
+    transform: scale(1);
+  }
+  to {
+    transform: scale(1.2);
+    box-shadow: 0 6px 20px rgba(10, 226, 82, 0.26);
+  }
+}
+
+.icon {
+  width: 25px;
+  height: 20px;
+  vertical-align: middle;
+}
+
+.price {
+  font-size: 25px !important;
+  color: #1e8489;
+}

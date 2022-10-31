@@ -1,0 +1,34 @@
+.footer {
+    
+    font-size: 16px;
+    line-height: 1.61803em;
+    background-color: #343434;
+    color: #fff;
+    padding: 25px 0;
+    z-index: 10;
+}
+
+.innerFooter {
+    padding: 0 70px;
+    margin: 0;
+}
+
+.textFooter {
+    display:inline-block;
+    font-size: 18px;
+    margin: 0;
+}
+
+.innerFooter span {
+    float: right;
+    font-size: 18pt;
+    
+}
+
+.icon {
+    margin-left: 10px;
+}
+
+.icon:hover {
+    transform: scale(1.2);
+}

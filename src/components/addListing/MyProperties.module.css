@@ -1,0 +1,14 @@
+.content {
+    background-color: white;
+    max-width: 830px;
+    margin-left: 70px;
+  }
+
+.wrapper {
+  margin-bottom: 20px;
+}
+
+.content h3 {
+  color :#234352;
+}
+

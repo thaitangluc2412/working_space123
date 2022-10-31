@@ -1,0 +1,142 @@
+.content {
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    background-color: white;
+    max-width: 830px;
+    margin-bottom: 20px;
+  }
+  
+  .personInfo {
+    padding: 30px;
+  }
+  
+  .personInfo h3 {
+    color: #1e8489;
+    margin: 0;
+    margin-bottom: 20px;
+  }
+  
+  .personInfo h3 span {
+      margin-right: 10px;
+  }
+  
+  .control {
+    position: relative;
+    /* border: 1px solid black; */
+    margin: 15px 0px 0px 0px;
+  }
+  
+  label span {
+    color: red;
+  }
+  
+  .control label {
+    /* border: 1px solid black; */
+    /* display: block; */
+    display: block;
+    width: fit-content;
+    font-weight: 500;
+    color: #224251;
+    padding: 5px 0px;
+    font-size: 13pt
+    /* margin: 0; */
+  }
+  
+  .control input,
+  select {
+    /* width: 30%; */
+    border: none;
+    border-bottom: 1px solid #ced4da;
+    padding: 0px 10px;
+    border-radius: 5px;
+    color: #1e8489;
+    font-size: 1rem;
+  }
+  
+  .control select {
+    width: fit-content;
+  }
+  
+  .inputName {
+    width: 100%;
+  }
+  
+  .control input:focus,
+  select:focus {
+    outline: none;
+  }
+  
+  textarea {
+    padding: 10px 10px;
+    border-radius: 5px;
+    background-color: #e5ebf1;
+    border: none;
+  }
+  
+  textarea:focus {
+    outline: none;
+  }
+  
+  .birthday {
+    width: fit-content;
+  }
+  
+  .message {
+    margin-left: 150px;
+    margin-top: 5px;
+    font-size: 0.8em;
+  }
+  
+  .btnContainer {
+    margin-top: 20px;
+    text-align: right;
+  }
+  
+  .btnRent {
+    cursor: pointer;
+    width: 100%;
+    padding: 6px;
+    font-weight: 750;
+    font-size: 20px;
+    color: white;
+    background-color: #1e8489;
+    border: none;
+    border-radius: 15px;
+    /* animation: bubbles 1s linear infinite both; */
+    cursor: pointer;
+  }
+  
+  .btnRent:hover {
+    background-color: #47a5aa;
+  }
+  
+  .type {
+    border: 1px solid black;
+  }
+  
+  .radio{
+    position: relative;
+    padding-left: 28px;
+    cursor: pointer;
+    line-height: 20px;
+    display: inline-block;
+    color: #666;
+  }
+  
+  .btnRent {
+      margin-top: 20px;
+      width: 100%;
+      padding: 10px;
+      border: none;
+      outline: none;
+      border-radius: 10px;
+      font-size: 16px;
+      font-weight: 600;
+      color: white;
+      background-color: #1e8489;
+    }
+    
+    .btnRent:hover {
+      background-color: #4daaaf;
+    }
+  

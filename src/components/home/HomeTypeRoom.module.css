@@ -1,0 +1,28 @@
+.typeRoomeWrapper {
+    margin: 10px auto;
+    width: 80%;
+    font-family: Arial, Roboto, "Times New Roman";
+}
+
+
+.title {
+    font-size: 32px;
+    font-weight: 700;
+    color: #343434;
+    text-shadow: 0 2px 4px rgb(0 0 0 / 30%);
+    line-height: 0.5;
+}
+
+.underTitle{
+    font-size: 18px;
+    font-weight: 400;
+    color: #7b8389;
+}
+
+.item{
+    text-decoration: none;
+}
+
+.item:hover {
+    transform: scale(1.05);
+}

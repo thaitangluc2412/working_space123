@@ -1,0 +1,270 @@
+.modal {
+  position: fixed;
+  width: 80%;
+  left: 10%;
+  top: 10vh;
+  background: white;
+  border-radius: 5px;
+  z-index: 200;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+  min-height: fit-content;
+  /* overflow-y: scroll; */
+  animation: slide-left 800ms ease-out forwards;
+}
+
+@keyframes slide-left {
+  from {
+    opacity: 0;
+    transform: translateX(3rem);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.modal__header {
+  text-align: center;
+  width: 80%;
+  margin: 0 auto;
+  height: fit-content;
+  border-bottom: 1px solid #dae0e6;
+  position: relative;
+}
+
+.modal__header h3 {
+  margin: 20px;
+  color: #1e8489;
+}
+
+.close {
+  position: absolute;
+  right: -85px;
+  top: -10px;
+  width: 35px;
+  height: 35px;
+  opacity: 0.4;
+  /* border: 1px solid black; */
+  border-radius: 50%;
+}
+.close:hover {
+  opacity: 1;
+}
+.close:before,
+.close:after {
+  position: absolute;
+  left: 15px;
+  content: " ";
+  height: 33px;
+  width: 2px;
+  background-color: #333;
+}
+.close:before {
+  transform: rotate(45deg);
+}
+.close:after {
+  transform: rotate(-45deg);
+}
+
+.container {
+  padding: 25px 100px;
+  width: 100%;
+  display: flex;
+}
+
+.containerLeft{
+   width: 50%; 
+   /* border: 1px solid black; */
+   padding: 10px;
+}
+
+.containerRight{
+    width: 49%;
+    /* border: 1px solid black; */
+    padding: 10px;
+}
+
+.top{
+  padding: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  background-color: white;
+}
+
+.top h4{
+  margin: 10px 0;
+  color:#998f8f;
+}
+
+.bookDetails{
+  /* width: ; */
+  /* border: 1px solid black; */
+  display: flex;
+}
+
+.datePickerWrapper p{
+  margin: 0;
+  padding-left: 5px;
+  color:#1e8489;
+}
+
+.date_picker_wrapper{
+  /* margin-left: 0; */
+  width: 190px;
+  border: 1px solid #dddee6;
+  border-radius: 5px;
+  display: flex;
+  vertical-align: middle;
+  cursor: pointer;
+}
+
+
+.date_picker_wrapper input:hover,
+.date_picker_wrapper:hover{
+  background-color: #dae0e6;
+}
+
+.date_picker_wrapper span {
+  /* border: 1px solid black; */
+  /* display: inline; */
+  margin-right: 5px;
+  margin-top: 2px;
+}
+
+
+.date_picker_wrapper input {
+  /* border: 1px solid black; */
+  width: 150px;
+  padding: 10px 10px;
+  font-size: 15px;
+  border: none;
+  cursor: pointer;
+  /* border-radius: 3px; */
+}
+
+.iconCarlendar{
+  font-size: 30px;
+  color:#1e8489;
+}
+
+.arrow{
+  /* border:1px solid black; */
+  /* display: inline; */
+  vertical-align: middle;
+  width: 60px;
+  text-align: center;
+}
+
+.arrow span {
+  /* border: 1px solid black; */
+  display: inline;
+  font-size: 30px;
+  color:#1e8489;
+  /* width: 100px; */
+}
+
+.underInfo {
+  margin-bottom: 20px;
+}
+
+.underInfo p{
+ margin: 5px;
+ font-size: 12px;
+ color: rgb(51, 45, 45);
+ }
+
+.amentity{
+  display: flex;
+  position: relative;
+  width: 50%;
+  margin: 0 auto;
+  border: 1px solid black;
+  
+}
+
+.amentity p{
+  /* width: 100px; */
+  width: 100%;
+  margin: 0;
+  margin-left: 10px;
+  font-size: 17px;
+  /* border: 1px solid black; */
+  
+}
+
+.amentity span {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 10px;
+}
+
+.amentity input {
+  /* text-align: right; */
+  width: 15px;
+  height: 100%;
+  border-radius: 50%;
+  display: inline;
+  vertical-align: middle;
+  /* margin: auto 0px; */
+  /* border-radius: 50%; */
+  /* outline: none; */
+  /* position: absolute;
+  right: 0; */
+  /* top: 1px; */
+}
+
+.imageRoom {
+  width: 100%;
+  height: 200px;
+  margin: 10px auto;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 10px;
+}
+
+.pricePerMonth p{
+  margin: 0;
+  /* padding: 0; */
+  margin-bottom: 10px;
+  /* border:1px solid black; */
+  position: relative;
+}
+
+.pricePerMonth p span{
+  position: absolute;
+  right: 0;
+  color: #1e8489;
+}
+
+.btnContainer{
+  margin-top: 15px;
+  text-align: right;
+}
+
+.btnRent{
+  width: 300px;
+  padding: 10px;
+  font-weight: 750;
+  font-size: 20px;
+  color: white;
+  background-color: #1e8489;
+  border: none;
+  border-radius: 15px;
+  animation: bubbles 1s linear infinite both;
+  cursor: pointer;
+}
+
+.btnRent:hover{
+  background-color: #1e8489;
+}
+
+@keyframes bubbles {
+  from {
+    transform: scale(1);
+  }
+  to {
+    transform: scale(1.05);
+    box-shadow: 0 6px 20px rgba(10, 226, 82, 0.26);
+  }
+}

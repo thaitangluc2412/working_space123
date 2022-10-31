@@ -1,0 +1,204 @@
+.container {
+  margin-top: 80px;
+  /* width: 100%; */
+  padding: 20px 60px;
+  /* display: flex; */
+  /* border:1px solid black; */
+}
+
+.header {
+  display: flex;
+  position: relative;
+  margin-bottom: 10px;
+}
+
+.goBack button {
+  font-size: 14px;
+  padding: 6px;
+  background-color: white;
+  border: none;
+  color: rgb(114, 106, 106);
+}
+
+.goBack button span {
+  color: #1e8489;
+  margin-right: 7px;
+  font-size: 15px;
+}
+
+.goBack button:hover {
+  cursor: pointer;
+  background-color: #e8eef4;
+}
+
+.status {
+  position: absolute;
+  right: 0;
+  padding: 6px 10px;
+  font-weight: 750;
+  font-size: 13px;
+  color: white;
+  background-color: #eb626c;
+  border: none;
+  border-radius: 15px;
+}
+
+.content {
+  display: flex;
+  width: 100%;
+  /* border: 1px solid black; */
+}
+
+.detail {
+  margin-right: 35px;
+  margin-bottom: 25px;
+  width: 650px;
+  height: fit-content;
+  box-shadow: 0 2px 8px rgba(116, 113, 113, 0.2);
+  border-radius: 10px;
+  background-color: white;
+  padding: 20px 15px;
+}
+
+.detail label {
+  margin: 0;
+  font-size: 20px;
+  color: rgb(114, 106, 106);
+  font-weight: 520;
+}
+
+.rentInfo p {
+  font-size: 16px;
+  color:#000;
+}
+
+.rentInfo p span {
+  color: #1e8489;
+  margin-right: 10px;
+  /* font-size: 20px; */
+}
+
+.btnContainer {
+  width: 650px;
+  position: relative;
+}
+
+.btnContainer button {
+  padding: 8px 15px;
+  font-weight: 750;
+  font-size: 20px;
+  color: white;
+  border: none;
+  border-radius: 15px;
+  width: 48%;
+  cursor: pointer;
+}
+
+.cancelBtn:hover {
+    background-color: #de9196;
+}
+
+.approvedBtn {
+  background-color: #44ac44;
+}
+
+.approvedBtn:hover {
+  background-color: #83c483;
+}
+
+.cancelBtn {
+  background-color: #eb626c;
+}
+
+.cancelBtn {
+  position: absolute;
+  right: 0;
+}
+
+.roomAndMap {
+  width: calc(100% - 650px);
+  /* padding: 0px 10px; */
+  /* border:1px solid black; */
+}
+
+.room {
+  /* width: 100%; */
+  height: fit-content;
+  box-shadow: 0 2px 8px rgba(116, 113, 113, 0.2);
+  border-radius: 10px;
+  background-color: white;
+  padding: 20px 10px;
+  margin-bottom: 20px;
+}
+
+.room .header {
+  margin: 0;
+  font-size: 18px;
+  color: rgb(114, 106, 106);
+  margin-bottom: 10px;
+}
+
+.room p {
+  margin: 7px 0px;
+}
+
+.room label {
+  font-weight: 600;
+  color: rgb(114, 106, 106);
+}
+
+.map {
+  box-shadow: 0 2px 8px rgba(116, 113, 113, 0.2);
+  border-radius: 10px;
+  background-color: white;
+  padding: 20px 10px;
+}
+
+.map p {
+  margin: 7px 0px;
+}
+
+.map label {
+  font-size: 20px;
+  font-weight: 600;
+  color: rgb(114, 106, 106);
+}
+
+
+.status1 {
+  /* border:1px solid black; */
+  height: fit-content;
+  width: 100%;
+  /* border: 1px solid #fece04; */
+  border-radius: 5px;
+  box-shadow: 0 2px 8px rgba(0,0,0,.15)!important;
+  display: flex;
+  margin-top: 10px;
+  /* border: 1px solid #1e8489; */
+}
+
+.icon {
+  color: #fece04;
+  font-size: 40px;
+}
+
+.text {
+  /* border: 1px solid black; */
+  padding: 10px 5px;
+}
+
+.notify {
+  color:#fece04;
+  font-weight: 600;
+  font-size: 17px;
+}
+
+.note {
+  color:rgb(114, 106, 106);
+  font-size: 13px;
+}
+
+.btnContainer span {
+  font-size: 25px;
+  margin-right: 10px;
+}

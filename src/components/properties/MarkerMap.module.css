@@ -1,0 +1,18 @@
+.iconMarker {
+   width: 30px;
+   height: 30px;
+   color: #ed5c66;
+   animation: bubbles 1s linear infinite both;
+}
+
+
+
+@keyframes bubbles {
+    from {
+      transform: scale(1);
+    }
+    to {
+      transform: scale(1.5);
+      
+    }
+  }

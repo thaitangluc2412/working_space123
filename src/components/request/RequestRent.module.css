@@ -1,0 +1,90 @@
+.container {
+  margin-top: 80px;
+  /* width: 100%; */
+  padding: 20px 60px;
+  /* display: flex; */
+  /* border:1px solid black; */
+}
+
+.header {
+  width: 100%;
+  border-bottom: 1px solid #ced4da;
+}
+
+.header p {
+  color: rgb(114, 106, 106);
+  font-size: 20px;
+}
+
+.header p span {
+  color: #1e8489;
+  margin-right: 5px;
+}
+
+.requests {
+  display: flex;
+  padding-top: 40px;
+}
+
+.filter {
+  margin-right: 35px;
+  width: 450px;
+  height: 350px;
+  box-shadow: 0 2px 8px rgba(116, 113, 113, 0.2);
+  border-radius: 7px;
+  background-color: white;
+  padding: 20px 15px;
+  position: relative;
+}
+
+.status {
+  margin-bottom: 20px;
+}
+
+.status select {
+  outline: none;
+  border: none;
+  border-bottom: 1px solid #ced4da;
+}
+
+.status label {
+  margin-right: 15px;
+}
+
+.btnContainer {
+  margin-top: 15px;
+  text-align: center;
+  width: 90%;
+
+  position: absolute;
+  bottom: 15px;
+  left: 22px;
+}
+
+.btnRent {
+  width: 100%;
+  padding: 8px;
+  font-weight: 750;
+  font-size: 20px;
+  color: white;
+  background-color: #eb626c;
+  border: none;
+  border-radius: 15px;
+
+  cursor: pointer;
+}
+
+.btnRent:hover {
+  background-color: #ecc3c6;
+}
+
+.linkReservation {
+    text-decoration: none;
+}
+
+.containerRequests {
+  width: calc(100% - 450px);
+  /* text-decoration: none; */
+}
+
+

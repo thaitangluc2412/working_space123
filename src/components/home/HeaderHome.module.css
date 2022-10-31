@@ -1,0 +1,51 @@
+.homeImage {
+  background-image: url("https://roomlessrent.com/assets/imgs/home/home_luce.jpg");
+  min-height: 550px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: Arial, Roboto, "Times New Roman";
+  margin-top: 72px;
+}
+
+.homeImage_text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-shadow: 0 2px 4px rgb(0 0 0 / 47%);
+}
+
+.button a {
+  background-color: #343434;
+  height: 40px!important;
+  padding: 10px 20px;
+  color: #fff;
+  font-size: 15px;
+  font-weight: 600;
+  border-radius: 50px;
+  text-decoration: none;
+}
+
+.button a:hover {
+  background-color: #676969 ;
+  outline-color: #343434;
+  transition: 200ms;
+}
+
+.welcomeText {
+  font-size: 50px;
+  font-weight: 600;
+  line-height: 1;
+  margin-bottom: 15px;
+}
+
+.underWelcomeText {
+  color: white;
+  font-size: 16pt;
+  font-weight: 600;
+  line-height: 1;
+  margin-bottom: 40px;
+}

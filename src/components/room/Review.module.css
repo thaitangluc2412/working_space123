@@ -1,0 +1,48 @@
+.review {
+    width: 100%;
+    display: flex;
+}
+
+.imageReview{
+    
+    width: fit-content;
+    text-align: center;
+}
+
+.imageReview img{
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+
+.inforReview{
+    
+    padding: 6px 8px;
+    width: calc(100%);
+    vertical-align: middle;
+}
+
+.inforReview h2{
+    font-size: 20px;
+    font-weight: 600px;
+    margin: 0;
+    color: #484848;
+}
+
+.stars{
+    vertical-align: middle;
+}
+
+.timeReview{
+    margin-left: 5px;
+    color: #b1b5b9;
+    font-size: 16px;
+}
+
+.comment {
+    padding: 5px 0px;
+}
+
+.comment p{
+    margin: 0;
+}

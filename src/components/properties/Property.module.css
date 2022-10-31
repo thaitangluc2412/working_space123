@@ -1,0 +1,94 @@
+.property {
+  position: relative;
+  display: inline-block;
+  width: 92%;
+}
+
+.property:hover {
+  cursor: pointer;
+  transform: scale(1.05);
+}
+
+.propertyImage button {
+  background-color: white;
+  box-shadow: 0 2px 8px rgba(87, 84, 84, 0.26);
+  border-radius: 50px;
+  padding: 6px 8px;
+  text-align: center;
+  font-weight: lighter;
+  position: absolute;
+  z-index: 9;
+  font-size: 9pt;
+  right: 5px;
+  top: 5px;
+  border: none;
+  color: #ed5c66;
+}
+
+
+.propertyContent p {
+  margin: 5px;
+}
+
+.propertyType span {
+  color: #ed5c66;
+}
+.propertyContent h2 {
+  margin: 0;
+  color: #484848;
+}
+
+.button {
+  position: absolute;
+  right: 0;
+  bottom: -10px;
+}
+
+.button button {
+  background-color: white;
+  box-shadow: 0 2px 8px rgba(87, 84, 84, 0.26);
+  border-radius: 50px;
+  font-size: 16px;
+  padding: 5px 10px;
+  text-align: center;
+  font-weight: lighter;
+  
+}
+
+.btnMap {
+  color: #44ac44;
+  margin-right: 15px;
+  border: none;
+}
+
+.btnMap:hover{
+  background-color: #44ac44;
+  color:white;
+}
+
+.rentNow {
+  color:rgb(111, 216, 216);
+  border: 1px solid rgb(111, 216, 216);
+  animation: bubbles 1s linear infinite both;
+}
+
+.rentNow:hover {
+  background-color: rgb(111, 216, 216);
+  color:white;
+}
+
+@keyframes bubbles {
+  from {
+    transform: scale(1);
+  }
+  to {
+    transform: scale(1.2);
+    box-shadow: 0 6px 20px rgba(10, 226, 82, 0.26);
+  }
+}
+
+.image {
+  border-radius: 10px;
+  width: 100%;
+  height: 200px;
+}
